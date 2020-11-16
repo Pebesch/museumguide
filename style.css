@@ -1,0 +1,88 @@
+.flex-container {
+    display: flex;
+}
+
+.column {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.centered {
+  align-items:center;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: .5rem;
+    margin: .5rem;
+    flex: 1 1 0px;
+}
+
+.card-img-holder {
+  height: 5rem;
+}
+
+.card-img {
+    max-height: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 50%;
+}
+
+.card-img-name {
+  padding: .5rem;
+}
+
+.card-img-name p:first-of-type {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.map {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: .25rem;
+    margin: .25rem;
+}
+
+.tag {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: .25rem;
+    margin: .25rem;
+    height: auto;
+}
+
+.po {
+ background-color: #cdb4db;
+}
+
+.dev {
+    background-color: #ffc8dd;
+}
+
+.p2p {
+    background-color: #ffafcc;
+}
+
+.uiux {
+    background-color: #bde0fe;
+}
+
+.scrum {
+    background-color: #a2d2ff;
+}
+
+.coach {
+    background-color: #9bf6ff;
+} 
+
+.expert {
+    background-color: #a0c4ff;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ }
