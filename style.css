@@ -1,3 +1,7 @@
+h6 {
+    border: none;
+}
+
 .flex-container {
     display: flex;
 }
