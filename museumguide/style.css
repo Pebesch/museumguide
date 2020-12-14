@@ -1,3 +1,13 @@
+#inner {
+    width: 25%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#inner p {
+    color: lightgray;
+}
+
 h6 {
     border: none;
 }
